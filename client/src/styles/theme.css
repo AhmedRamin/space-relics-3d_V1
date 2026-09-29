@@ -1,0 +1,162 @@
+:root {
+  /* ---------- surfaces ---------- */
+  --bg-app: #05070f;
+  --bg-deep: #01030a;
+  --surface-1: rgba(15, 22, 42, 0.72);
+  --surface-2: rgba(10, 16, 32, 0.86);
+  --surface-3: rgba(255, 255, 255, 0.045);
+  --glass-border: rgba(146, 178, 255, 0.16);
+  --glass-border-strong: rgba(158, 192, 255, 0.34);
+  --glass-blur: 18px;
+  --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 14px 38px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 26px 70px rgba(0, 0, 0, 0.62);
+  --inner-light: inset 0 1px 0 rgba(255, 255, 255, 0.07);
+
+  /* ---------- text ---------- */
+  --text-primary: #f2f6ff;
+  --text-secondary: #b3c0dc;
+  --text-muted: #7e8cab;
+  --text-inverse: #05101f;
+
+  /* ---------- accents ---------- */
+  --accent: #5ea8ff;
+  --accent-2: #9d8bff;
+  --accent-3: #ffb35c;
+  --accent-soft: rgba(94, 168, 255, 0.16);
+  --accent-line: rgba(94, 168, 255, 0.4);
+  --grad-primary: linear-gradient(135deg, #6fb4ff 0%, #3f7fd6 60%, #5a63d8 100%);
+  --grad-warm: linear-gradient(135deg, #ffd79a 0%, #ffb35c 55%, #e07a2a 100%);
+
+  /* ---------- hardware icon colours ---------- */
+  --kind-rover: #ffb35c;
+  --kind-helicopter: #ffd166;
+  --kind-lander: #7ee0ff;
+  --kind-station: #8ec6ff;
+  --kind-orbiter: #a99bff;
+  --kind-satellite: #6ee7b7;
+  --kind-telescope: #ff9ecb;
+  --kind-probe: #cbd6e8;
+  --kind-impactor: #ff8f8f;
+
+  /* ---------- status ---------- */
+  --status-active: #4fd6a0;
+  --status-ended: #97a5bd;
+  --status-planned: #7cc7ff;
+  --status-lost: #ff6b6b;
+  --status-failed: #ff9d8a;
+  --status-partial: #dcc478;
+
+  /* ---------- shape / motion ---------- */
+  --radius-xs: 8px;
+  --radius-sm: 11px;
+  --radius-md: 15px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --speed: 180ms;
+
+  /* ---------- type ---------- */
+  --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --track-wide: 0.16em;
+
+  /* ---------- layout ---------- */
+  --topbar-h: 60px;
+  --rail-w: 276px;
+  --rail-w-md: 240px;
+  --info-w: 372px;
+  --chat-w: 400px;
+  --gap: 16px;
+  --safe-t: env(safe-area-inset-top, 0px);
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-l: env(safe-area-inset-left, 0px);
+  --safe-r: env(safe-area-inset-right, 0px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(1200px 820px at 8% -12%, rgba(38, 68, 140, 0.5), transparent 62%),
+    radial-gradient(900px 640px at 96% 2%, rgba(112, 74, 208, 0.32), transparent 58%),
+    radial-gradient(800px 600px at 50% 120%, rgba(255, 150, 70, 0.1), transparent 60%),
+    var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overscroll-behavior: none;
+}
+
+body::after {
+  /* a whisper of grain so the glass panels do not band */
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.028;
+  background-image: radial-gradient(circle at 1px 1px, #fff 1px, transparent 0);
+  background-size: 3px 3px;
+}
+
+::selection {
+  background: rgba(94, 168, 255, 0.3);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(146, 178, 255, 0.3) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(146, 178, 255, 0.26);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(146, 178, 255, 0.42);
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

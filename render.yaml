@@ -1,0 +1,20 @@
+# Render Blueprint — one Node web service that serves both the API and the
+# built client. The dataset ships inside server/data/, so nothing external is
+# required. Commit this file and Render can create the service in one click.
+services:
+  - type: web
+    name: space-relics-3d
+    runtime: node
+    plan: free
+    buildCommand: npm run render:build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: NODE_ENV
+        value: production
+      - key: WEB_KNOWLEDGE
+        value: "true"
+      - key: FREE_MODEL
+        value: "true"

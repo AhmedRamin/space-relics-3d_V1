@@ -1,0 +1,525 @@
+{
+ "meta": {
+  "name": "Space Relics media index",
+  "description": "Lead photograph per object, resolved from Wikipedia and merged over the dataset at load time, so every record can show a picture of itself.",
+  "resolved": 69,
+  "requested": 70,
+  "builtUtc": "2026-09-28T19:52:31Z",
+  "overrides": 1,
+  "count": 70,
+  "note": "Lead photograph per object, resolved from Wikipedia/Wikimedia Commons and merged over the dataset at load time, so every record can show a picture of itself."
+ },
+ "images": {
+  "venera-8": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/VenusLanderTopo.png/960px-VenusLanderTopo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Venera program",
+   "source": "Wikipedia",
+   "query": "Venera 8 spacecraft",
+   "kind": "mission",
+   "name": "Venera 8"
+  },
+  "akatsuki": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Akatsuki-1.jpg/960px-Akatsuki-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Akatsuki (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Akatsuki spacecraft",
+   "kind": "mission",
+   "name": "Akatsuki"
+  },
+  "luna-10": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Luna_9_Musee_du_Bourget_P1010505.JPG/960px-Luna_9_Musee_du_Bourget_P1010505.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Luna 9",
+   "source": "Wikipedia",
+   "query": "Luna 10 spacecraft",
+   "kind": "mission",
+   "name": "Luna 10"
+  },
+  "lunar-reconnaissance-orbiter-lro": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lunar_Reconnaissance_Orbiter_001.jpg/960px-Lunar_Reconnaissance_Orbiter_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Lunar Reconnaissance Orbiter",
+   "source": "Wikipedia",
+   "query": "Lunar Reconnaissance Orbiter (LRO) spacecraft",
+   "kind": "mission",
+   "name": "Lunar Reconnaissance Orbiter (LRO)"
+  },
+  "chang-e-6": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Chang-e-5-assembly-CG-1-Cropped.jpg/960px-Chang-e-5-assembly-CG-1-Cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Chang'e 5",
+   "source": "Wikipedia",
+   "query": "Chang'e 6 spacecraft",
+   "kind": "mission",
+   "name": "Chang'e 6"
+  },
+  "slim": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/SLIM_half_scale_model_%28close_cropped%29.png/960px-SLIM_half_scale_model_%28close_cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Smart Lander for Investigating Moon",
+   "source": "Wikipedia",
+   "query": "SLIM spacecraft",
+   "kind": "mission",
+   "name": "SLIM"
+  },
+  "danuri-kplo": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kplo_rendered_image.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "Danuri",
+   "source": "Wikipedia",
+   "query": "Danuri (KPLO) spacecraft",
+   "kind": "mission",
+   "name": "Danuri (KPLO)"
+  },
+  "im-2-athena": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Intuitive_Machines_Lunar_Operations_Facility_at_Houston_Spaceport.jpg/960px-Intuitive_Machines_Lunar_Operations_Facility_at_Houston_Spaceport.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Intuitive Machines",
+   "source": "Wikipedia",
+   "query": "IM-2 Athena spacecraft",
+   "kind": "mission",
+   "name": "IM-2 Athena"
+  },
+  "hakuto-r-mission-2-resilience": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/RESILIENCE-lander-replica04_20250528atHanedaAirPort.jpg/960px-RESILIENCE-lander-replica04_20250528atHanedaAirPort.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Hakuto-R Mission 2",
+   "source": "Wikipedia",
+   "query": "Hakuto-R Mission 2 (Resilience) spacecraft",
+   "kind": "mission",
+   "name": "Hakuto-R Mission 2 (Resilience)"
+  },
+  "spirit-mer-a": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/KSC-03PD-0786.jpg/960px-KSC-03PD-0786.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Spirit (rover)",
+   "source": "Wikipedia",
+   "query": "Spirit (MER-A) spacecraft",
+   "kind": "mission",
+   "name": "Spirit (MER-A)"
+  },
+  "tianwen-1": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/The_Tianwen-3_payload_development_project_has_been_launched1.png/960px-The_Tianwen-3_payload_development_project_has_been_launched1.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Tianwen-3",
+   "source": "Wikipedia",
+   "query": "Tianwen-1 NASA mission",
+   "kind": "mission",
+   "name": "Tianwen-1"
+  },
+  "perseverance": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Perseverance-Selfie-at-Rochette-Horizontal-V2.gif/960px-Perseverance-Selfie-at-Rochette-Horizontal-V2.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Perseverance (rover)",
+   "source": "Wikipedia",
+   "query": "Perseverance spacecraft",
+   "kind": "mission",
+   "name": "Perseverance"
+  },
+  "ingenuity": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mars_helicopter_on_sol_46.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "Ingenuity (helicopter)",
+   "source": "Wikipedia",
+   "query": "Ingenuity spacecraft",
+   "kind": "mission",
+   "name": "Ingenuity"
+  },
+  "ulysses": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ulysses_spacecraft.jpg/960px-Ulysses_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Ulysses (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Ulysses spacecraft",
+   "kind": "mission",
+   "name": "Ulysses"
+  },
+  "cassini-jupiter-flyby": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/960px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Cassini–Huygens",
+   "source": "Wikipedia",
+   "query": "Cassini (Jupiter flyby) spacecraft",
+   "kind": "mission",
+   "name": "Cassini (Jupiter flyby)"
+  },
+  "new-horizons-jupiter-flyby": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/New_Horizons_spacecraft_model_1.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "New Horizons",
+   "source": "Wikipedia",
+   "query": "New Horizons (Jupiter flyby) spacecraft",
+   "kind": "mission",
+   "name": "New Horizons (Jupiter flyby)"
+  },
+  "juno": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Juno_spacecraft_model_1.png/960px-Juno_spacecraft_model_1.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Juno (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Juno spacecraft",
+   "kind": "mission",
+   "name": "Juno"
+  },
+  "pioneer-11-saturn-flyby": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/960px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Pioneer 11",
+   "source": "Wikipedia",
+   "query": "Pioneer 11 (Saturn flyby) spacecraft",
+   "kind": "mission",
+   "name": "Pioneer 11 (Saturn flyby)"
+  },
+  "voyager-1-saturn-flyby": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/960px-Voyager_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Voyager 1",
+   "source": "Wikipedia",
+   "query": "Voyager 1 (Saturn flyby) spacecraft",
+   "kind": "mission",
+   "name": "Voyager 1 (Saturn flyby)"
+  },
+  "voyager-2-saturn-flyby": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/960px-Voyager_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Voyager 2",
+   "source": "Wikipedia",
+   "query": "Voyager 2 (Saturn flyby) spacecraft",
+   "kind": "mission",
+   "name": "Voyager 2 (Saturn flyby)"
+  },
+  "sun": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_Sun_in_white_light.jpg/960px-The_Sun_in_white_light.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Sun",
+   "source": "Wikipedia",
+   "name": "Sun"
+  },
+  "moon": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Moon",
+   "source": "Wikipedia",
+   "name": "Moon"
+  },
+  "opportunity-mer-b": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/960px-NASA_Mars_Rover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Opportunity (rover)",
+   "source": "Wikipedia",
+   "query": "Opportunity (MER-B) spacecraft",
+   "name": "Opportunity (MER-B)"
+  },
+  "mars-reconnaissance-orbiter-mro": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mars_Reconnaissance_Orbiter%2C_front_view%2C_artist%27s_concept_%28PIA07245%29.jpg/960px-Mars_Reconnaissance_Orbiter%2C_front_view%2C_artist%27s_concept_%28PIA07245%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Mars Reconnaissance Orbiter",
+   "source": "Wikipedia",
+   "query": "Mars Reconnaissance Orbiter (MRO) spacecraft",
+   "name": "Mars Reconnaissance Orbiter (MRO)"
+  },
+  "phoenix": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Phoenix_landing.jpg/960px-Phoenix_landing.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Phoenix (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Phoenix spacecraft",
+   "name": "Phoenix"
+  },
+  "curiosity-mars-science-laboratory": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/PIA19808-MarsCuriosityRover-AeolisMons-BuckskinRock-20150805.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "Timeline of Mars Science Laboratory",
+   "source": "Wikipedia",
+   "query": "Curiosity (Mars Science Laboratory) spacecraft",
+   "name": "Curiosity (Mars Science Laboratory)"
+  },
+  "mangalyaan-mars-orbiter-mission": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg/960px-Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Mars Orbiter Mission",
+   "source": "Wikipedia",
+   "query": "Mangalyaan (Mars Orbiter Mission) spacecraft",
+   "name": "Mangalyaan (Mars Orbiter Mission)"
+  },
+  "exomars-trace-gas-orbiter-tgo": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mars_Reconnaissance_Orbiter%2C_front_view%2C_artist%27s_concept_%28PIA07245%29.jpg/960px-Mars_Reconnaissance_Orbiter%2C_front_view%2C_artist%27s_concept_%28PIA07245%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Mars Reconnaissance Orbiter",
+   "source": "Wikipedia",
+   "query": "ExoMars Trace Gas Orbiter (TGO) NASA",
+   "name": "ExoMars Trace Gas Orbiter (TGO)"
+  },
+  "schiaparelli": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Schiaparelli_Lander_Model_at_ESOC.JPG/960px-Schiaparelli_Lander_Model_at_ESOC.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Schiaparelli EDM",
+   "source": "Wikipedia",
+   "query": "Schiaparelli spacecraft",
+   "name": "Schiaparelli"
+  },
+  "voyager-2-uranus-flyby": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/960px-Voyager_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Voyager 2",
+   "source": "Wikipedia",
+   "query": "Voyager 2 (Uranus flyby) spacecraft",
+   "name": "Voyager 2 (Uranus flyby)"
+  },
+  "voyager-2-neptune-flyby": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/960px-Voyager_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Voyager 2",
+   "source": "Wikipedia",
+   "query": "Voyager 2 (Neptune flyby) spacecraft",
+   "name": "Voyager 2 (Neptune flyby)"
+  },
+  "ice-international-cometary-explorer": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/ISEE-3.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "International Cometary Explorer",
+   "source": "Wikipedia",
+   "query": "ICE (International Cometary Explorer) spacecraft",
+   "name": "ICE (International Cometary Explorer)"
+  },
+  "vega-1-halley-flyby": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Vega_model_-_Udvar-Hazy_Center.JPG/960px-Vega_model_-_Udvar-Hazy_Center.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Vega 1",
+   "source": "Wikipedia",
+   "query": "Vega 1 (Halley flyby) spacecraft",
+   "name": "Vega 1 (Halley flyby)"
+  },
+  "stardust": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Stardust_-_Concepcao_artistica.jpg/960px-Stardust_-_Concepcao_artistica.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Stardust (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Stardust spacecraft",
+   "name": "Stardust"
+  },
+  "hayabusa-muses-c": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Hayabusa_hover.jpg/960px-Hayabusa_hover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Hayabusa",
+   "source": "Wikipedia",
+   "query": "Hayabusa (MUSES-C) spacecraft",
+   "name": "Hayabusa (MUSES-C)"
+  },
+  "deep-impact": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Deep_Impact.jpg/960px-Deep_Impact.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Deep Impact (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Deep Impact spacecraft",
+   "name": "Deep Impact"
+  },
+  "osiris-rex-osiris-apex": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/OSIRIS-REx_spacecraft_model.png/960px-OSIRIS-REx_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "OSIRIS-REx",
+   "source": "Wikipedia",
+   "query": "OSIRIS-REx / OSIRIS-APEX spacecraft",
+   "name": "OSIRIS-REx / OSIRIS-APEX"
+  },
+  "dart": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/DART_and_MUBLCOM.jpg/960px-DART_and_MUBLCOM.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "DART (satellite)",
+   "source": "Wikipedia",
+   "query": "DART spacecraft",
+   "name": "DART"
+  },
+  "psyche": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/PIA21499_-_Artist%27s_Concept_of_Psyche_Spacecraft_with_Five-Panel_Array.jpg/960px-PIA21499_-_Artist%27s_Concept_of_Psyche_Spacecraft_with_Five-Panel_Array.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Psyche (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Psyche spacecraft",
+   "name": "Psyche"
+  },
+  "helios-2": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Helios_spacecraft.jpg/960px-Helios_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Helios (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Helios 2 spacecraft",
+   "name": "Helios 2"
+  },
+  "ulysses-1": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ulysses_spacecraft.jpg/960px-Ulysses_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Ulysses (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Ulysses spacecraft",
+   "name": "Ulysses"
+  },
+  "soho": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/SOHO_ESA350759.jpg/960px-SOHO_ESA350759.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Solar and Heliospheric Observatory",
+   "source": "Wikipedia",
+   "query": "SOHO spacecraft",
+   "name": "SOHO"
+  },
+  "ace": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Wind_probe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "Wind (spacecraft)",
+   "source": "Wikipedia",
+   "query": "ACE spacecraft",
+   "name": "ACE"
+  },
+  "genesis": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/GenSC_collection2_150dpi.jpg/960px-GenSC_collection2_150dpi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Genesis (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Genesis spacecraft",
+   "name": "Genesis"
+  },
+  "hinode": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/SOLAR-B_artists_concept.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "Hinode (satellite)",
+   "source": "Wikipedia",
+   "query": "Hinode spacecraft",
+   "name": "Hinode"
+  },
+  "solar-dynamics-observatory-sdo": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Solar_Dynamics_Observatory_1.jpg/960px-Solar_Dynamics_Observatory_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Solar Dynamics Observatory",
+   "source": "Wikipedia",
+   "query": "Solar Dynamics Observatory (SDO) spacecraft",
+   "name": "Solar Dynamics Observatory (SDO)"
+  },
+  "imap": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Interstellar_Mapping_and_Acceleration_Probe_rendering.png/960px-Interstellar_Mapping_and_Acceleration_Probe_rendering.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Interstellar Mapping and Acceleration Probe",
+   "source": "Wikipedia",
+   "query": "IMAP spacecraft",
+   "name": "IMAP"
+  },
+  "cluster": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Cluster_ESA15192620.jpeg/960px-Cluster_ESA15192620.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Cluster II (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Cluster spacecraft",
+   "name": "Cluster"
+  },
+  "swift": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Testing_for_the_Katalyst-NASA_Swift_Boost_Mission_%28crop%29.jpg/960px-Testing_for_the_Katalyst-NASA_Swift_Boost_Mission_%28crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Swift boost mission",
+   "source": "Wikipedia",
+   "query": "Swift spacecraft",
+   "name": "Swift"
+  },
+  "herschel": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Maquette_Herschel_salon_du_Bourget_2013_DSC_0217.JPG/960px-Maquette_Herschel_salon_du_Bourget_2013_DSC_0217.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Herschel Space Observatory",
+   "source": "Wikipedia",
+   "query": "Herschel spacecraft",
+   "name": "Herschel"
+  },
+  "wise-neowise": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Comet_2020_F3_%28NEOWISE%29_on_Jul_14_2020_aligned_to_stars.jpg/960px-Comet_2020_F3_%28NEOWISE%29_on_Jul_14_2020_aligned_to_stars.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Comet NEOWISE",
+   "source": "Wikipedia",
+   "query": "WISE / NEOWISE spacecraft",
+   "name": "WISE / NEOWISE"
+  },
+  "plato": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/ESA_Plato_mission_visualisation.jpg/960px-ESA_Plato_mission_visualisation.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "PLATO (spacecraft)",
+   "source": "Wikipedia",
+   "query": "PLATO spacecraft",
+   "name": "PLATO"
+  },
+  "terra": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Terra_spacecraft_model.png/960px-Terra_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Terra (satellite)",
+   "source": "Wikipedia",
+   "query": "Terra spacecraft",
+   "name": "Terra"
+  },
+  "aqua": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Aqua_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "Aqua (satellite)",
+   "source": "Wikipedia",
+   "query": "Aqua spacecraft",
+   "name": "Aqua"
+  },
+  "aura": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Aura_spacecraft.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "Aura (satellite)",
+   "source": "Wikipedia",
+   "query": "Aura spacecraft",
+   "name": "Aura"
+  },
+  "icesat-2": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Icesat.jpg/960px-Icesat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "ICESat",
+   "source": "Wikipedia",
+   "query": "ICESat-2 spacecraft",
+   "name": "ICESat-2"
+  },
+  "swot": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/SWOT_spacecraft_model.png/960px-SWOT_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Surface Water and Ocean Topography",
+   "source": "Wikipedia",
+   "query": "SWOT spacecraft",
+   "name": "SWOT"
+  },
+  "pace": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PACE_Spacecraft_beauty2.jpg/960px-PACE_Spacecraft_beauty2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Plankton, Aerosol, Cloud, ocean Ecosystem",
+   "source": "Wikipedia",
+   "query": "PACE spacecraft",
+   "name": "PACE"
+  },
+  "goes-19-goes-u": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/GOES-U_night_%2853390148447%29.png/960px-GOES-U_night_%2853390148447%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "GOES-19",
+   "source": "Wikipedia",
+   "query": "GOES-19 (GOES-U) spacecraft",
+   "name": "GOES-19 (GOES-U)"
+  },
+  "salyut-2-almaz-ops-1": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Salyut_program_insignia.svg/960px-Salyut_program_insignia.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Salyut 3",
+   "source": "Wikipedia",
+   "query": "Salyut 2 (Almaz OPS-1) spacecraft",
+   "name": "Salyut 2 (Almaz OPS-1)"
+  },
+  "salyut-3-almaz-ops-2": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Salyut_program_insignia.svg/960px-Salyut_program_insignia.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Salyut 3",
+   "source": "Wikipedia",
+   "query": "Salyut 3 (Almaz OPS-2) spacecraft",
+   "name": "Salyut 3 (Almaz OPS-2)"
+  },
+  "salyut-5-almaz-ops-3": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Salyut_program_insignia.svg/960px-Salyut_program_insignia.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Salyut 3",
+   "source": "Wikipedia",
+   "query": "Salyut 5 (Almaz OPS-3) spacecraft",
+   "name": "Salyut 5 (Almaz OPS-3)"
+  },
+  "international-space-station-iss": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/ISS_emblem.png/960px-ISS_emblem.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "International Space Station program",
+   "source": "Wikipedia",
+   "query": "International Space Station (ISS) spacecraft",
+   "name": "International Space Station (ISS)"
+  },
+  "tiangong-chinese-space-station": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Chinese_Tiangong_Space_Station.jpg/960px-Chinese_Tiangong_Space_Station.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Tiangong space station",
+   "source": "Wikipedia",
+   "query": "Tiangong (Chinese Space Station) spacecraft",
+   "name": "Tiangong (Chinese Space Station)"
+  },
+  "genesis-i": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/960px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "NASA",
+   "source": "Wikipedia",
+   "query": "Genesis I NASA",
+   "name": "Genesis I"
+  },
+  "genesis-ii": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/GenSC_collection2_150dpi.jpg/960px-GenSC_collection2_150dpi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Genesis (spacecraft)",
+   "source": "Wikipedia",
+   "query": "Genesis II spacecraft",
+   "name": "Genesis II"
+  },
+  "beam": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/20180706_Bigelow_Airlock_Johnson_Space_Center.jpg/960px-20180706_Bigelow_Airlock_Johnson_Space_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Bigelow Expandable Activity Module",
+   "source": "Wikipedia",
+   "query": "BEAM spacecraft",
+   "name": "BEAM"
+  },
+  "asteroids": {
+   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Number_of_Minor_Planets_and_Comets_visited_by_spacecraft.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "title": "List of minor planets and comets visited by spacecraft",
+   "source": "Wikipedia",
+   "query": "Asteroids & Comets spacecraft",
+   "name": "Asteroids & Comets"
+  },
+  "rosalind-franklin": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Rosalind_Franklin_rover_2024.jpg/960px-Rosalind_Franklin_rover_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "title": "Rosalind Franklin (rover)",
+   "source": "Wikipedia",
+   "name": "Rosalind Franklin",
+   "kind": "mission",
+   "override": true,
+   "note": "The workbook illustrates this record with a portrait of Rosalind Franklin the chemist, not the ESA rover."
+  },
+  "hope-al-amal": {
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Emirates_Mars_Mission_mockup_at_IAC_2021_01_%28cropped%29.jpg/960px-Emirates_Mars_Mission_mockup_at_IAC_2021_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "title": "Emirates Mars Mission",
+   "source": "Wikimedia Commons",
+   "query": "Emirates Mars Mission mockup at IAC 2021",
+   "kind": "mission",
+   "name": "Hope (Al-Amal)"
+  }
+ }
+}

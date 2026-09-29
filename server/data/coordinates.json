@@ -1,0 +1,1622 @@
+{
+ "meta": {
+  "name": "Space Relics positions",
+  "description": "Measured landing sites and orbital elements. Merged over the dataset at load time; edit this file to correct or add a position.",
+  "precisionLevels": {
+   "measured": "Published coordinates (source listed per record).",
+   "reported": "Coordinates from the mission's own reporting, rounded.",
+   "approximate": "Best available estimate; treat as a region, not a point.",
+   "unlocated": "No published position; the 3D scene spreads the object along a band and says so.",
+   "shell": "In orbit — altitude not published, shown on a labelled shell.",
+   "planned": "The site is selected but the vehicle has not yet landed."
+  },
+  "sources": [
+   "LPI/USRA — The Apollo Landing Sites (lpi.usra.edu/publications/slidesets/apollolanding)",
+   "LROC — Spacecraft Related Coordinates, 2016 update (lroc.im-ldi.com/images/938)",
+   "LROC — Chandrayaan-3 landing site; Chang'e 3 site (lroc.im-ldi.com)",
+   "The Planetary Society — Map of all Mars landing sites (planetary.org)",
+   "NASA/JPL — Phoenix landing press kit; Mars 2020 Jezero Crater site",
+   "Wikipedia/IUCN-verified orbital elements for stations and telescopes"
+  ],
+  "builtUtc": "2026-09-28T18:16:46Z",
+  "counts": {
+   "sites": 56,
+   "orbits": 163
+  }
+ },
+ "sites": {
+  "perseverance": {
+   "lat": 18.4447,
+   "lng": 77.4508,
+   "label": "Octavia E. Butler landing site, Jezero Crater",
+   "region": "Jezero Crater",
+   "precision": "measured",
+   "source": "NASA/JPL Mars 2020 landing site"
+  },
+  "curiosity-mars-science-laboratory": {
+   "lat": -4.5895,
+   "lng": 137.4417,
+   "label": "Bradbury Landing, Gale Crater",
+   "region": "Gale Crater",
+   "precision": "measured",
+   "source": "Vasavada et al., JGR 2014"
+  },
+  "spirit-mer-a": {
+   "lat": -14.571892,
+   "lng": 175.47848,
+   "label": "Gusev Crater",
+   "region": "Gusev Crater",
+   "precision": "measured",
+   "source": "Arvidson et al., JGR 2006"
+  },
+  "opportunity-mer-b": {
+   "lat": -1.9462,
+   "lng": -5.5266,
+   "label": "Eagle Crater, Meridiani Planum",
+   "region": "Meridiani Planum",
+   "precision": "measured",
+   "source": "Squyres et al., JGR 2006 (354.4734 E)"
+  },
+  "insight": {
+   "lat": 4.502,
+   "lng": 135.623,
+   "label": "Elysium Planitia",
+   "region": "Elysium Planitia",
+   "precision": "measured",
+   "source": "Golombek et al., LPSC 2019"
+  },
+  "phoenix": {
+   "lat": 68.21883,
+   "lng": -125.749222,
+   "label": "Green Valley, Vastitas Borealis",
+   "region": "Vastitas Borealis",
+   "precision": "measured",
+   "source": "NASA/JPL Phoenix landing press kit (234.25 E)"
+  },
+  "viking-1": {
+   "lat": 22.48,
+   "lng": -49.97,
+   "label": "Chryse Planitia",
+   "region": "Chryse Planitia",
+   "precision": "measured",
+   "source": "NSSDC / Planetary Society landing-site map"
+  },
+  "viking-2": {
+   "lat": 47.97,
+   "lng": -134.14,
+   "label": "Utopia Planitia",
+   "region": "Utopia Planitia",
+   "precision": "measured",
+   "source": "NSSDC (225.86 E)"
+  },
+  "mars-pathfinder": {
+   "lat": 19.33,
+   "lng": -33.55,
+   "label": "Ares Vallis",
+   "region": "Ares Vallis",
+   "precision": "measured",
+   "source": "NSSDC / Planetary Society landing-site map"
+  },
+  "tianwen-1": {
+   "lat": 25.1,
+   "lng": 109.9,
+   "label": "Zhurong landing site, Utopia Planitia",
+   "region": "Utopia Planitia",
+   "precision": "reported",
+   "source": "CNSA published site"
+  },
+  "mars-3": {
+   "lat": -45.0,
+   "lng": -158.0,
+   "label": "Mars 3 landing point (contact lost after 20 s)",
+   "region": "Terra Sirenum",
+   "precision": "approximate",
+   "source": "NSSDC (TPS map)"
+  },
+  "beagle-2": {
+   "lat": 11.5264,
+   "lng": 90.4295,
+   "label": "Isidis Planitia",
+   "region": "Isidis Planitia",
+   "precision": "measured",
+   "source": "ESA/HiRISE relocation of the lander"
+  },
+  "schiaparelli": {
+   "lat": -2.0708,
+   "lng": 6.2111,
+   "label": "Meridiani Planum impact site",
+   "region": "Meridiani Planum",
+   "precision": "measured",
+   "source": "ESA ExoMars 2016"
+  },
+  "mars-polar-lander": {
+   "lat": -76.57,
+   "lng": 165.2,
+   "label": "Planum Australe target (lost on arrival)",
+   "region": "Planum Australe",
+   "precision": "approximate",
+   "source": "Planetary Society map (NSSDC)"
+  },
+  "apollo-11": {
+   "lat": 0.67416,
+   "lng": 23.47314,
+   "label": "Tranquillity Base",
+   "region": "Mare Tranquillitatis",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016"
+  },
+  "apollo-12": {
+   "lat": -3.0128,
+   "lng": -23.4219,
+   "label": "Oceanus Procellarum",
+   "region": "Ocean of Storms",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016"
+  },
+  "apollo-14": {
+   "lat": -3.64589,
+   "lng": -17.47194,
+   "label": "Fra Mauro",
+   "region": "Fra Mauro formation",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016"
+  },
+  "apollo-15": {
+   "lat": 26.13239,
+   "lng": 3.6333,
+   "label": "Hadley-Apennines",
+   "region": "Hadley Rille",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016"
+  },
+  "apollo-16": {
+   "lat": -8.9734,
+   "lng": 15.5011,
+   "label": "Descartes Highlands",
+   "region": "Descartes",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016"
+  },
+  "apollo-17": {
+   "lat": 20.1908,
+   "lng": 30.7717,
+   "label": "Taurus-Littrow",
+   "region": "Taurus-Littrow valley",
+   "precision": "measured",
+   "source": "LROC / LPI landing-site tables"
+  },
+  "surveyor-1": {
+   "lat": -2.4745,
+   "lng": -43.3398,
+   "label": "Oceanus Procellarum",
+   "region": "Ocean of Storms",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016 (316.66 E)"
+  },
+  "surveyor-3": {
+   "lat": -3.0162,
+   "lng": -23.418,
+   "label": "Oceanus Procellarum (visited by Apollo 12)",
+   "region": "Ocean of Storms",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016 (336.58 E)"
+  },
+  "surveyor-5": {
+   "lat": 1.4551,
+   "lng": 23.1943,
+   "label": "Mare Tranquillitatis",
+   "region": "Sea of Tranquillity",
+   "precision": "measured",
+   "source": "LROC spacecraft coordinates 2016"
+  },
+  "chang-e-3": {
+   "lat": 44.1214,
+   "lng": -19.5117,
+   "label": "Mare Imbrium",
+   "region": "Sea of Rains",
+   "precision": "measured",
+   "source": "LROC (340.488 E)"
+  },
+  "chang-e-4": {
+   "lat": -45.4446,
+   "lng": 177.5991,
+   "label": "Von Karman crater (far side)",
+   "region": "South Pole-Aitken basin",
+   "precision": "measured",
+   "source": "CNSA / LROC"
+  },
+  "chandrayaan-3": {
+   "lat": -69.3741,
+   "lng": 32.32,
+   "label": "Vikram lander site, near the south pole",
+   "region": "Lunar south polar region",
+   "precision": "measured",
+   "source": "LROC featured image 1314"
+  },
+  "luna-9": {
+   "lat": 7.08,
+   "lng": -64.37,
+   "label": "Oceanus Procellarum",
+   "region": "Ocean of Storms",
+   "precision": "measured",
+   "source": "NSSDC via Fourmilab landing-site list"
+  },
+  "luna-17": {
+   "lat": 38.2376,
+   "lng": -34.9974,
+   "label": "Lunokhod 1 site, Mare Imbrium",
+   "region": "Mare Imbrium",
+   "precision": "measured",
+   "source": "LROC / NSSDC"
+  },
+  "luna-21": {
+   "lat": 25.85,
+   "lng": 30.45,
+   "label": "Lunokhod 2 site, Le Monnier crater",
+   "region": "Le Monnier",
+   "precision": "measured",
+   "source": "LROC / NSSDC"
+  },
+  "slim": {
+   "lat": -13.316,
+   "lng": 25.251,
+   "label": "Shioli crater",
+   "region": "Mare Nectaris",
+   "precision": "measured",
+   "source": "JAXA / LROC"
+  },
+  "chandrayaan-2": {
+   "lat": -70.88,
+   "lng": 22.78,
+   "label": "Vikram impact site (crash-landed)",
+   "region": "Lunar south polar region",
+   "precision": "measured",
+   "source": "LROC / ISRO"
+  },
+  "lunokhod-1": {
+   "lat": 38.2376,
+   "lng": -34.9974,
+   "label": "Lunokhod 1 site, Mare Imbrium",
+   "region": "Mare Imbrium",
+   "precision": "measured",
+   "source": "LROC / NSSDC"
+  },
+  "lunokhod-2": {
+   "lat": 25.85,
+   "lng": 30.45,
+   "label": "Lunokhod 2 site, Le Monnier crater",
+   "region": "Le Monnier",
+   "precision": "measured",
+   "source": "LROC / NSSDC"
+  },
+  "luna-16": {
+   "lat": -0.68,
+   "lng": 56.3,
+   "label": "Luna 16 sample-return site, Mare Fecunditatis",
+   "region": "Mare Fecunditatis",
+   "precision": "measured",
+   "source": "NSSDC"
+  },
+  "luna-24": {
+   "lat": 12.25,
+   "lng": 62.2,
+   "label": "Luna 24 sample-return site, Mare Crisium",
+   "region": "Mare Crisium",
+   "precision": "measured",
+   "source": "NSSDC"
+  },
+  "chang-e-5": {
+   "lat": 43.06,
+   "lng": -51.92,
+   "label": "Mons Rumker, northern Oceanus Procellarum",
+   "region": "Oceanus Procellarum",
+   "precision": "measured",
+   "source": "CNSA / LROC"
+  },
+  "chang-e-6": {
+   "lat": -41.64,
+   "lng": 153.99,
+   "label": "Apollo basin, far side (first far-side sample return)",
+   "region": "South Pole-Aitken basin",
+   "precision": "measured",
+   "source": "CNSA / LROC"
+  },
+  "lcross": {
+   "lat": -84.9,
+   "lng": -48.9,
+   "label": "Cabeus crater impact site, lunar south pole",
+   "region": "Lunar south pole",
+   "precision": "measured",
+   "source": "NASA LCROSS"
+  },
+  "beresheet": {
+   "lat": 32.6,
+   "lng": 19.7,
+   "label": "Beresheet impact site, Mare Serenitatis",
+   "region": "Mare Serenitatis",
+   "precision": "approximate",
+   "source": "SpaceIL / LROC"
+  },
+  "luna-25": {
+   "lat": -57.9,
+   "lng": 61.7,
+   "label": "Luna 25 impact site, Pontécoulant G crater",
+   "region": "Lunar south polar region",
+   "precision": "approximate",
+   "source": "Roscosmos / LROC"
+  },
+  "ranger-7": {
+   "lat": -10.35,
+   "lng": -20.58,
+   "label": "Ranger 7 impact site, Mare Cognitum",
+   "region": "Mare Cognitum",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "ranger-8": {
+   "lat": 2.64,
+   "lng": 24.79,
+   "label": "Ranger 8 impact site, Mare Tranquillitatis",
+   "region": "Sea of Tranquillity",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "ranger-9": {
+   "lat": -12.83,
+   "lng": -2.37,
+   "label": "Ranger 9 impact site, Alphonsus crater",
+   "region": "Alphonsus",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "im-1-odysseus": {
+   "lat": -80.13,
+   "lng": 1.44,
+   "label": "Malapert A, near the south pole",
+   "region": "Lunar south polar region",
+   "precision": "measured",
+   "source": "Intuitive Machines / NASA"
+  },
+  "blue-ghost-mission-1": {
+   "lat": 17.0,
+   "lng": 59.2,
+   "label": "Mare Crisium",
+   "region": "Mare Crisium",
+   "precision": "measured",
+   "source": "Firefly Aerospace / NASA"
+  },
+  "ingenuity": {
+   "lat": 18.44,
+   "lng": 77.45,
+   "label": "Airfields beside Perseverance, Jezero Crater",
+   "region": "Jezero Crater",
+   "precision": "reported",
+   "source": "NASA/JPL (rover-relative position)"
+  },
+  "venera-7": {
+   "lat": -5.0,
+   "lng": -9.0,
+   "label": "First transmission from the surface of another planet",
+   "region": "Venus lowlands",
+   "precision": "reported",
+   "source": "NSSDC Venera landing coordinates"
+  },
+  "venera-8": {
+   "lat": -10.7,
+   "lng": -24.2,
+   "label": "Vasilika region, daylight-side landing",
+   "region": "Venus highlands edge",
+   "precision": "reported",
+   "source": "NSSDC"
+  },
+  "venera-9": {
+   "lat": 31.2,
+   "lng": -68.2,
+   "label": "Beta Regio region",
+   "region": "Beta Regio",
+   "precision": "reported",
+   "source": "NSSDC"
+  },
+  "venera-10": {
+   "lat": 15.4,
+   "lng": -68.5,
+   "label": "Beta Regio region",
+   "region": "Beta Regio",
+   "precision": "reported",
+   "source": "NSSDC"
+  },
+  "venera-11": {
+   "lat": -14.0,
+   "lng": -61.0,
+   "label": "Southern highlands",
+   "region": "Aphrodite Terra",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "venera-12": {
+   "lat": -7.0,
+   "lng": -66.0,
+   "label": "Southern highlands",
+   "region": "Aphrodite Terra",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "venera-13": {
+   "lat": -7.5,
+   "lng": -57.0,
+   "label": "Phoebe Regio, first colour image from Venus",
+   "region": "Phoebe Regio",
+   "precision": "reported",
+   "source": "NSSDC"
+  },
+  "venera-14": {
+   "lat": -13.25,
+   "lng": -43.5,
+   "label": "Phoebe Regio",
+   "region": "Phoebe Regio",
+   "precision": "reported",
+   "source": "NSSDC"
+  },
+  "vega-1": {
+   "lat": 7.5,
+   "lng": 179.4,
+   "label": "Halley-support lander, Rusalka Planitia",
+   "region": "Rusalka Planitia",
+   "precision": "reported",
+   "source": "NSSDC"
+  },
+  "vega-2": {
+   "lat": -8.5,
+   "lng": 164.5,
+   "label": "Halley-support lander, Aphrodite Terra",
+   "region": "Aphrodite Terra",
+   "precision": "reported",
+   "source": "NSSDC"
+  },
+  "rosalind-franklin": {
+   "lat": 18.1,
+   "lng": -24.3,
+   "label": "Oxia Planum (planned landing site)",
+   "region": "Oxia Planum",
+   "precision": "planned",
+   "source": "ESA ExoMars plans (18.1 N, 335.7 E)"
+  }
+ },
+ "orbits": {
+  "iss": {
+   "altitudeKm": 408,
+   "inclinationDeg": 51.64,
+   "label": "Low Earth orbit, 408 km",
+   "precision": "measured",
+   "source": "ISS orbital parameters"
+  },
+  "international-space-station-iss": {
+   "altitudeKm": 408,
+   "inclinationDeg": 51.64,
+   "label": "Low Earth orbit, 408 km",
+   "precision": "measured",
+   "source": "ISS orbital parameters"
+  },
+  "tiangong-chinese-space-station": {
+   "altitudeKm": 389,
+   "inclinationDeg": 41.47,
+   "label": "Low Earth orbit, 386-392 km",
+   "precision": "measured",
+   "source": "Tiangong orbital parameters"
+  },
+  "tiangong-1": {
+   "altitudeKm": 343,
+   "inclinationDeg": 42.7,
+   "label": "Low Earth orbit, 343 km (re-entered 2018)",
+   "precision": "measured",
+   "source": "CNSA"
+  },
+  "tiangong-2": {
+   "altitudeKm": 393,
+   "inclinationDeg": 42.8,
+   "label": "Low Earth orbit, 393 km (deorbited 2019)",
+   "precision": "measured",
+   "source": "CNSA"
+  },
+  "skylab": {
+   "altitudeKm": 435,
+   "inclinationDeg": 50.0,
+   "label": "Low Earth orbit, 435 km (decayed 1979)",
+   "precision": "measured",
+   "source": "NASA history"
+  },
+  "mir": {
+   "altitudeKm": 350,
+   "inclinationDeg": 51.6,
+   "label": "Low Earth orbit, about 350 km",
+   "precision": "measured",
+   "source": "RSC Energia / NASA"
+  },
+  "salyut-1": {
+   "altitudeKm": 215,
+   "inclinationDeg": 51.6,
+   "label": "Low Earth orbit, 200-222 km",
+   "precision": "measured",
+   "source": "NSSDC"
+  },
+  "salyut-2-almaz-ops-1": {
+   "altitudeKm": 260,
+   "inclinationDeg": 51.6,
+   "label": "Low Earth orbit, about 260 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "salyut-3-almaz-ops-2": {
+   "altitudeKm": 270,
+   "inclinationDeg": 51.6,
+   "label": "Low Earth orbit, 250-280 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "salyut-4": {
+   "altitudeKm": 270,
+   "inclinationDeg": 51.6,
+   "label": "Low Earth orbit, about 270 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "salyut-5-almaz-ops-3": {
+   "altitudeKm": 260,
+   "inclinationDeg": 51.6,
+   "label": "Low Earth orbit, 250-270 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "salyut-6": {
+   "altitudeKm": 247,
+   "inclinationDeg": 51.66,
+   "label": "Low Earth orbit, 219-275 km",
+   "precision": "measured",
+   "source": "NSSDC"
+  },
+  "salyut-7": {
+   "altitudeKm": 300,
+   "inclinationDeg": 51.6,
+   "label": "Low Earth orbit, about 300 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "genesis-i": {
+   "altitudeKm": 550,
+   "inclinationDeg": 64.0,
+   "label": "Low Earth orbit, about 550 km",
+   "precision": "approximate",
+   "source": "Bigelow Aerospace"
+  },
+  "genesis-ii": {
+   "altitudeKm": 550,
+   "inclinationDeg": 64.0,
+   "label": "Low Earth orbit, about 550 km",
+   "precision": "approximate",
+   "source": "Bigelow Aerospace"
+  },
+  "beam": {
+   "altitudeKm": 408,
+   "inclinationDeg": 51.64,
+   "label": "Attached to the ISS, 408 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "axiom-station": {
+   "altitudeKm": 408,
+   "inclinationDeg": 51.64,
+   "label": "Planned: begins docked to the ISS",
+   "precision": "approximate",
+   "source": "Axiom Space plans"
+  },
+  "starlab": {
+   "altitudeKm": 400,
+   "inclinationDeg": 51.6,
+   "label": "Planned free-flying station",
+   "precision": "approximate",
+   "source": "Voyager Space / Airbus plans"
+  },
+  "orbital-reef": {
+   "altitudeKm": 500,
+   "inclinationDeg": 51.6,
+   "label": "Planned commercial station",
+   "precision": "approximate",
+   "source": "Blue Origin / Sierra Space plans"
+  },
+  "hubble": {
+   "altitudeKm": 535,
+   "inclinationDeg": 28.47,
+   "label": "Low Earth orbit, 535 km",
+   "precision": "measured",
+   "source": "NASA/ESA orbital parameters"
+  },
+  "landsat-8": {
+   "altitudeKm": 705,
+   "inclinationDeg": 98.2,
+   "label": "Sun-synchronous orbit, 705 km",
+   "precision": "measured",
+   "source": "USGS/NASA"
+  },
+  "terra": {
+   "altitudeKm": 705,
+   "inclinationDeg": 98.2,
+   "label": "Sun-synchronous orbit, 705 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "lro": {
+   "altitudeKm": 50,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, about 50 km",
+   "precision": "measured",
+   "source": "NASA LRO"
+  },
+  "mro": {
+   "altitudeKm": 300,
+   "inclinationDeg": 93.0,
+   "label": "Mars polar orbit, 250-316 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "mars-reconnaissance-orbiter": {
+   "altitudeKm": 300,
+   "inclinationDeg": 93.0,
+   "label": "Mars polar orbit, 250-316 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "2001-mars-odyssey": {
+   "altitudeKm": 400,
+   "inclinationDeg": 93.06,
+   "label": "Sun-synchronous Mars orbit, 400 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "mars-odyssey": {
+   "altitudeKm": 400,
+   "inclinationDeg": 93.06,
+   "label": "Sun-synchronous Mars orbit, 400 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "mars-global-surveyor": {
+   "altitudeKm": 378,
+   "inclinationDeg": 93.0,
+   "label": "Mars mapping orbit, 378 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "mars-express": {
+   "altitudeKm": 298,
+   "inclinationDeg": 86.9,
+   "label": "Mars polar orbit, 298-10,107 km",
+   "precision": "measured",
+   "source": "ESA"
+  },
+  "maven": {
+   "altitudeKm": 4500,
+   "inclinationDeg": 75.0,
+   "label": "Highly elliptical Mars orbit",
+   "precision": "measured",
+   "source": "NASA/GSFC"
+  },
+  "mars-atmosphere-and-volatile-evolution": {
+   "altitudeKm": 4500,
+   "inclinationDeg": 75.0,
+   "label": "Highly elliptical Mars orbit",
+   "precision": "measured",
+   "source": "NASA/GSFC"
+  },
+  "juno": {
+   "altitudeKm": 4200,
+   "inclinationDeg": 90.0,
+   "label": "Polar Jovian orbit, perijove about 4,200 km",
+   "precision": "measured",
+   "source": "NASA/JPL Juno press kit"
+  },
+  "galileo": {
+   "altitudeKm": 188000,
+   "inclinationDeg": 4.0,
+   "label": "Elliptical Jovian orbit",
+   "precision": "approximate",
+   "source": "NASA/JPL mission profile"
+  },
+  "magellan": {
+   "altitudeKm": 290,
+   "inclinationDeg": 85.5,
+   "label": "Near-polar Venus orbit, 290 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "messenger": {
+   "altitudeKm": 200,
+   "inclinationDeg": 80.0,
+   "label": "Elliptical Mercury orbit, 200-15,000 km",
+   "precision": "measured",
+   "source": "NASA/JHUAPL"
+  },
+  "cassini-huygens": {
+   "altitudeKm": 250000,
+   "inclinationDeg": 0,
+   "label": "Saturn orbit, highly elliptical",
+   "precision": "approximate",
+   "source": "NASA/ESA mission profile"
+  },
+  "cassini": {
+   "altitudeKm": 250000,
+   "inclinationDeg": 0,
+   "label": "Saturn orbit, highly elliptical",
+   "precision": "approximate",
+   "source": "NASA/ESA mission profile"
+  },
+  "voyager-1": {
+   "altitudeKm": null,
+   "inclinationDeg": 35.0,
+   "label": "Escape trajectory — now in interstellar space",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "voyager-2": {
+   "altitudeKm": null,
+   "inclinationDeg": 78.0,
+   "label": "Escape trajectory — now in interstellar space",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "hubble-space-telescope": {
+   "altitudeKm": 535,
+   "inclinationDeg": 28.47,
+   "label": "Low Earth orbit, 535 km",
+   "precision": "measured",
+   "source": "NASA/ESA orbital parameters"
+  },
+  "lunar-reconnaissance-orbiter-lro": {
+   "altitudeKm": 50,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, about 50 km",
+   "precision": "measured",
+   "source": "NASA LRO"
+  },
+  "mars-reconnaissance-orbiter-mro": {
+   "altitudeKm": 300,
+   "inclinationDeg": 93.0,
+   "label": "Mars polar orbit, 250-316 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "chandrayaan-2": {
+   "altitudeKm": 100,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, 100 km",
+   "precision": "measured",
+   "source": "ISRO"
+  },
+  "lunar-prospector": {
+   "altitudeKm": 100,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, about 100 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "lunar-gateway": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned near-rectilinear halo orbit around the Moon",
+   "precision": "shell",
+   "source": "NASA Artemis plans"
+  },
+  "mangalyaan": {
+   "altitudeKm": 421,
+   "inclinationDeg": 150.0,
+   "label": "Highly elliptical Mars orbit, 421 km periapsis",
+   "precision": "measured",
+   "source": "ISRO"
+  },
+  "voyager-2-neptune-flyby": {
+   "altitudeKm": null,
+   "inclinationDeg": 78.0,
+   "label": "Escape trajectory — now in interstellar space",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "voyager-2-uranus-flyby": {
+   "altitudeKm": null,
+   "inclinationDeg": 78.0,
+   "label": "Escape trajectory — now in interstellar space",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "voyager-1-saturn-flyby": {
+   "altitudeKm": null,
+   "inclinationDeg": 35.0,
+   "label": "Escape trajectory — now in interstellar space",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "cassini-jupiter-flyby": {
+   "altitudeKm": 9600000,
+   "inclinationDeg": 0,
+   "label": "Jupiter flyby at 9.7 million km (1999-2000)",
+   "precision": "measured",
+   "source": "NASA/ESA"
+  },
+  "luna-10": {
+   "altitudeKm": 350,
+   "inclinationDeg": 71.9,
+   "label": "Lunar orbit, 350 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "lunar-orbiter-1": {
+   "altitudeKm": 40,
+   "inclinationDeg": 12.0,
+   "label": "Lunar orbit, 40-1,850 km",
+   "precision": "measured",
+   "source": "NASA history"
+  },
+  "clementine": {
+   "altitudeKm": 400,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, 400-2,950 km",
+   "precision": "measured",
+   "source": "NRL/NASA"
+  },
+  "smart-1": {
+   "altitudeKm": 470,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, 470-2,900 km",
+   "precision": "measured",
+   "source": "ESA"
+  },
+  "kaguya-selene": {
+   "altitudeKm": 100,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, 100 km",
+   "precision": "measured",
+   "source": "JAXA"
+  },
+  "chang-e-1": {
+   "altitudeKm": 200,
+   "inclinationDeg": 90.0,
+   "label": "Lunar orbit, 200 km",
+   "precision": "measured",
+   "source": "CNSA"
+  },
+  "chandrayaan-1": {
+   "altitudeKm": 100,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, 100 km",
+   "precision": "measured",
+   "source": "ISRO"
+  },
+  "grail": {
+   "altitudeKm": 25,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, about 25 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "ladee": {
+   "altitudeKm": 40,
+   "inclinationDeg": 157.0,
+   "label": "Low lunar orbit, 20-60 km (retrograde)",
+   "precision": "measured",
+   "source": "NASA Ames"
+  },
+  "danuri-kplo": {
+   "altitudeKm": 100,
+   "inclinationDeg": 90.0,
+   "label": "Lunar polar orbit, 100 km",
+   "precision": "measured",
+   "source": "KARI"
+  },
+  "capstone": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Near-rectilinear halo orbit (NRHO)",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "artemis-i": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Distant retrograde orbit (uncrewed test flight)",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "luna-3": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Heliocentric orbit after the first far-side photographs",
+   "precision": "shell",
+   "source": "NSSDC"
+  },
+  "mariner-9": {
+   "altitudeKm": 1380,
+   "inclinationDeg": 64.4,
+   "label": "Mars orbit, 1,380-17,000 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "mars-2": {
+   "altitudeKm": 1100,
+   "inclinationDeg": 48.9,
+   "label": "Mars orbit, 1,100-24,940 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "phobos-2": {
+   "altitudeKm": 850,
+   "inclinationDeg": 51.0,
+   "label": "Mars orbit, 850-79,850 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "exomars-trace-gas-orbiter-tgo": {
+   "altitudeKm": 400,
+   "inclinationDeg": 74.0,
+   "label": "Mars orbit, 400 km circular",
+   "precision": "measured",
+   "source": "ESA"
+  },
+  "hope-al-amal": {
+   "altitudeKm": 20000,
+   "inclinationDeg": 25.0,
+   "label": "Highly elliptical Mars orbit, 20,000-43,000 km",
+   "precision": "measured",
+   "source": "UAE Space Agency"
+  },
+  "mangalyaan-mars-orbiter-mission": {
+   "altitudeKm": 421,
+   "inclinationDeg": 150.0,
+   "label": "Highly elliptical Mars orbit, 421 km periapsis",
+   "precision": "measured",
+   "source": "ISRO"
+  },
+  "mars-sample-return": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Mars orbit for the return campaign",
+   "precision": "shell",
+   "source": "NASA/ESA plans"
+  },
+  "escapade": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Mars orbit (two smallsats)",
+   "precision": "shell",
+   "source": "NASA/UC Berkeley"
+  },
+  "pioneer-venus-orbiter": {
+   "altitudeKm": 150,
+   "inclinationDeg": 105.0,
+   "label": "Venus orbit, 150-66,000 km",
+   "precision": "measured",
+   "source": "NASA history"
+  },
+  "venus-express": {
+   "altitudeKm": 250,
+   "inclinationDeg": 90.0,
+   "label": "Venus polar orbit, 250-66,000 km",
+   "precision": "measured",
+   "source": "ESA"
+  },
+  "akatsuki": {
+   "altitudeKm": 400,
+   "inclinationDeg": 172.0,
+   "label": "Elliptical Venus orbit, 400-440,000 km",
+   "precision": "measured",
+   "source": "JAXA"
+  },
+  "venera-15": {
+   "altitudeKm": 1000,
+   "inclinationDeg": 87.5,
+   "label": "Venus polar orbit, 1,000-65,000 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "venera-16": {
+   "altitudeKm": 1000,
+   "inclinationDeg": 87.5,
+   "label": "Venus polar orbit, 1,000-65,000 km",
+   "precision": "approximate",
+   "source": "NSSDC"
+  },
+  "veritas": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Venus mapping orbit",
+   "precision": "shell",
+   "source": "NASA plans"
+  },
+  "shukrayaan-1": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Venus orbit",
+   "precision": "shell",
+   "source": "ISRO plans"
+  },
+  "mariner-10": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Heliocentric orbit with three Mercury flybys",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "bepicolombo": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Cruise phase — Mercury orbit insertion planned",
+   "precision": "shell",
+   "source": "ESA/JAXA"
+  },
+  "chandra-x-ray-observatory": {
+   "altitudeKm": 10000,
+   "inclinationDeg": 76.7,
+   "label": "Highly elliptical Earth orbit, 10,000-140,000 km",
+   "precision": "measured",
+   "source": "NASA/CXC"
+  },
+  "xmm-newton": {
+   "altitudeKm": 7000,
+   "inclinationDeg": 68.0,
+   "label": "Highly elliptical Earth orbit, 7,000-115,000 km",
+   "precision": "measured",
+   "source": "ESA"
+  },
+  "swift": {
+   "altitudeKm": 600,
+   "inclinationDeg": 20.6,
+   "label": "Low Earth orbit, 600 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "fermi-gamma-ray-space-telescope": {
+   "altitudeKm": 550,
+   "inclinationDeg": 25.6,
+   "label": "Low Earth orbit, 550 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "nustar": {
+   "altitudeKm": 600,
+   "inclinationDeg": 6.0,
+   "label": "Low Earth orbit, 600 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "ixpe": {
+   "altitudeKm": 600,
+   "inclinationDeg": 0.2,
+   "label": "Equatorial low Earth orbit, 600 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "tess": {
+   "altitudeKm": 108000,
+   "inclinationDeg": 37.0,
+   "label": "Lunar-resonant high Earth orbit, 108,000-375,000 km",
+   "precision": "measured",
+   "source": "NASA/MIT"
+  },
+  "wise-neowise": {
+   "altitudeKm": 525,
+   "inclinationDeg": 97.5,
+   "label": "Sun-synchronous orbit, 525 km",
+   "precision": "measured",
+   "source": "NASA/JPL"
+  },
+  "cheops": {
+   "altitudeKm": 700,
+   "inclinationDeg": 98.2,
+   "label": "Sun-synchronous orbit, 700 km",
+   "precision": "measured",
+   "source": "ESA"
+  },
+  "compton-gamma-ray-observatory": {
+   "altitudeKm": 450,
+   "inclinationDeg": 28.5,
+   "label": "Low Earth orbit, 450 km (re-entered 2000)",
+   "precision": "measured",
+   "source": "NASA history"
+  },
+  "solar-dynamics-observatory-sdo": {
+   "altitudeKm": 35786,
+   "inclinationDeg": 28.5,
+   "label": "Geosynchronous orbit, 35,786 km",
+   "precision": "measured",
+   "source": "NASA/GSFC"
+  },
+  "hinode": {
+   "altitudeKm": 600,
+   "inclinationDeg": 98.0,
+   "label": "Sun-synchronous orbit, 600 km",
+   "precision": "measured",
+   "source": "JAXA/NASA"
+  },
+  "goes-19-goes-u": {
+   "altitudeKm": 35786,
+   "inclinationDeg": 0.0,
+   "label": "Geostationary orbit, 35,786 km",
+   "precision": "measured",
+   "source": "NOAA/NASA"
+  },
+  "james-webb-space-telescope": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L2 halo orbit, about 1.5 million km",
+   "precision": "shell",
+   "source": "NASA/ESA/CSA"
+  },
+  "gaia": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L2 Lissajous orbit",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "euclid": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L2 halo orbit",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "planck": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L2 halo orbit (ended 2013)",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "herschel": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L2 halo orbit (ended 2013)",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "spektr-rg": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L2 halo orbit",
+   "precision": "shell",
+   "source": "Roscosmos/ESA"
+  },
+  "nancy-grace-roman-space-telescope": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Sun-Earth L2 orbit",
+   "precision": "shell",
+   "source": "NASA plans"
+  },
+  "plato": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Sun-Earth L2 orbit",
+   "precision": "shell",
+   "source": "ESA plans"
+  },
+  "ariel": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Sun-Earth L2 orbit",
+   "precision": "shell",
+   "source": "ESA plans"
+  },
+  "spitzer-space-telescope": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Earth-trailing heliocentric orbit (ended 2020)",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "kepler": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Earth-trailing heliocentric orbit (ended 2018)",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "neo-surveyor": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Sun-Earth L1 halo orbit",
+   "precision": "shell",
+   "source": "NASA/JPL plans"
+  },
+  "tracers": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned low Earth orbit (two smallsats)",
+   "precision": "shell",
+   "source": "NASA plans"
+  },
+  "cluster": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Four-spacecraft magnetospheric constellation",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "landsat-1": {
+   "altitudeKm": 900,
+   "inclinationDeg": 99.0,
+   "label": "Sun-synchronous orbit, 900 km",
+   "precision": "measured",
+   "source": "NASA/USGS"
+  },
+  "landsat-9": {
+   "altitudeKm": 705,
+   "inclinationDeg": 98.2,
+   "label": "Sun-synchronous orbit, 705 km",
+   "precision": "measured",
+   "source": "NASA/USGS"
+  },
+  "aqua": {
+   "altitudeKm": 705,
+   "inclinationDeg": 98.2,
+   "label": "Sun-synchronous orbit, 705 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "aura": {
+   "altitudeKm": 705,
+   "inclinationDeg": 98.2,
+   "label": "Sun-synchronous orbit, 705 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "icesat-2": {
+   "altitudeKm": 496,
+   "inclinationDeg": 92.0,
+   "label": "Near-polar orbit, 496 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "grace-fo": {
+   "altitudeKm": 490,
+   "inclinationDeg": 89.0,
+   "label": "Near-polar orbit, 490 km",
+   "precision": "measured",
+   "source": "NASA/GFZ"
+  },
+  "jason-3": {
+   "altitudeKm": 1336,
+   "inclinationDeg": 66.0,
+   "label": "Non-sun-synchronous orbit, 1,336 km",
+   "precision": "measured",
+   "source": "NOAA/EUMETSAT/NASA"
+  },
+  "sentinel-6-michael-freilich": {
+   "altitudeKm": 1336,
+   "inclinationDeg": 66.0,
+   "label": "Non-sun-synchronous orbit, 1,336 km",
+   "precision": "measured",
+   "source": "ESA/EUMETSAT/NASA"
+  },
+  "sentinel-2": {
+   "altitudeKm": 786,
+   "inclinationDeg": 98.6,
+   "label": "Sun-synchronous orbit, 786 km",
+   "precision": "measured",
+   "source": "ESA"
+  },
+  "swot": {
+   "altitudeKm": 890,
+   "inclinationDeg": 77.6,
+   "label": "Sun-synchronous orbit, 890 km",
+   "precision": "measured",
+   "source": "NASA/CNES"
+  },
+  "earthcare": {
+   "altitudeKm": 393,
+   "inclinationDeg": 97.0,
+   "label": "Sun-synchronous orbit, 393 km",
+   "precision": "measured",
+   "source": "ESA/JAXA"
+  },
+  "pace": {
+   "altitudeKm": 676,
+   "inclinationDeg": 98.0,
+   "label": "Sun-synchronous orbit, 676 km",
+   "precision": "measured",
+   "source": "NASA"
+  },
+  "international-space-station": {
+   "altitudeKm": 408,
+   "inclinationDeg": 51.64,
+   "label": "Low Earth orbit, 408 km",
+   "precision": "measured",
+   "source": "ISS orbital parameters"
+  },
+  "parker-solar-probe": {
+   "altitudeKm": null,
+   "inclinationDeg": 3.4,
+   "label": "Heliocentric orbit, perihelion passes inside 0.05 AU",
+   "precision": "shell",
+   "source": "NASA/JHUAPL"
+  },
+  "solar-orbiter": {
+   "altitudeKm": null,
+   "inclinationDeg": 33.0,
+   "label": "Heliocentric orbit, 0.28-0.9 AU with polar passes",
+   "precision": "shell",
+   "source": "ESA/NASA"
+  },
+  "helios-1": {
+   "altitudeKm": null,
+   "inclinationDeg": 0.0,
+   "label": "Heliocentric orbit, 0.29-0.98 AU",
+   "precision": "shell",
+   "source": "DLR/NASA"
+  },
+  "helios-2": {
+   "altitudeKm": null,
+   "inclinationDeg": 0.0,
+   "label": "Heliocentric orbit, 0.29-0.98 AU",
+   "precision": "shell",
+   "source": "DLR/NASA"
+  },
+  "soho": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L1 halo orbit",
+   "precision": "shell",
+   "source": "ESA/NASA"
+  },
+  "ace": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L1 Lissajous orbit",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "wind": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L1 halo orbit",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "genesis": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L1 halo orbit (sample returned 2004)",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "stereo": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Two spacecraft in heliocentric orbit, one trailing Earth",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "aditya-l1": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sun-Earth L1 halo orbit",
+   "precision": "shell",
+   "source": "ISRO"
+  },
+  "imap": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Sun-Earth L1 halo orbit",
+   "precision": "shell",
+   "source": "NASA plans"
+  },
+  "punch": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned low Earth orbit constellation",
+   "precision": "shell",
+   "source": "NASA plans"
+  },
+  "ulysses": {
+   "altitudeKm": null,
+   "inclinationDeg": 79.0,
+   "label": "Heliocentric polar orbit (ended 2009)",
+   "precision": "shell",
+   "source": "ESA/NASA"
+  },
+  "ulysses-1": {
+   "altitudeKm": null,
+   "inclinationDeg": 79.0,
+   "label": "Heliocentric polar orbit (ended 2009)",
+   "precision": "shell",
+   "source": "ESA/NASA"
+  },
+  "pioneer-6": {
+   "altitudeKm": null,
+   "inclinationDeg": 0.0,
+   "label": "Heliocentric orbit near 1 AU",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "juice": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Cruise to Jupiter — eight-year gravity-assist tour",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "europa-clipper": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "En route to Jupiter; planned Europa flyby campaign",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "lucy": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Heliocentric orbit through the Jupiter Trojan swarms",
+   "precision": "shell",
+   "source": "NASA/GSFC"
+  },
+  "new-horizons-jupiter-flyby": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Jupiter gravity assist on the way to Pluto",
+   "precision": "shell",
+   "source": "NASA/JHUAPL"
+  },
+  "new-horizons": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Interstellar trajectory after the Pluto and Arrokoth flybys",
+   "precision": "shell",
+   "source": "NASA/JHUAPL"
+  },
+  "pioneer-10": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Escape trajectory after the first Jupiter flyby",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "pioneer-11": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Escape trajectory after Jupiter and Saturn",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "pioneer-11-saturn-flyby": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Saturn flyby at 20,000 km (1979)",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "dragonfly": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned Titan rotorcraft — surface operations",
+   "precision": "shell",
+   "source": "NASA/JHUAPL plans"
+  },
+  "dart": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Impacted the asteroid moon Dimorphos (2022)",
+   "precision": "shell",
+   "source": "NASA/JHUAPL"
+  },
+  "rosetta": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Escorted comet 67P; Philae landed on it in 2014",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "near-shoemaker": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Landed on the asteroid 433 Eros (2001)",
+   "precision": "shell",
+   "source": "NASA/JHUAPL"
+  },
+  "hayabusa2": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Rendezvous with asteroid Ryugu; samples returned 2020",
+   "precision": "shell",
+   "source": "JAXA"
+  },
+  "osiris-rex-osiris-apex": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Sampled asteroid Bennu; now bound for Apophis",
+   "precision": "shell",
+   "source": "NASA/GSFC"
+  },
+  "psyche": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "En route to the metal asteroid 16 Psyche",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "hera": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "En route to the Dimorphos impact site",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "tianwen-2": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned asteroid and comet rendezvous",
+   "precision": "shell",
+   "source": "CNSA"
+  },
+  "comet-interceptor": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Planned wait at Sun-Earth L2 for a pristine comet",
+   "precision": "shell",
+   "source": "ESA plans"
+  },
+  "hayabusa-muses-c": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Rendezvous with asteroid Itokawa; samples returned 2010",
+   "precision": "shell",
+   "source": "JAXA"
+  },
+  "deep-impact": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Impacted comet 9P/Tempel 1 (2005)",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "stardust": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Comet Wild 2 dust returned to Earth in 2006",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "deep-space-1": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Comet Borrelly flyby; ion-drive testbed",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  },
+  "giotto": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Comet Halley flyby at 596 km (1986)",
+   "precision": "shell",
+   "source": "ESA"
+  },
+  "ice-international-cometary-explorer": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Comet 21P/Giacobini-Zinner flyby (1985)",
+   "precision": "shell",
+   "source": "NASA"
+  },
+  "vega-1-halley-flyby": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Comet Halley flyby at 8,890 km (1986)",
+   "precision": "shell",
+   "source": "NSSDC"
+  },
+  "dawn": {
+   "altitudeKm": null,
+   "inclinationDeg": null,
+   "label": "Orbited asteroid 4 Vesta then dwarf planet Ceres",
+   "precision": "shell",
+   "source": "NASA/JPL"
+  }
+ },
+ "bodyImages": {}
+}

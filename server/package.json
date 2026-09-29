@@ -1,0 +1,21 @@
+{
+  "name": "space-relics-3d-server",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Express API for Space Relics 3D — reads the dataset from a JSON file, no database and no auth",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "verify": "node scripts/verify-syntax.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
